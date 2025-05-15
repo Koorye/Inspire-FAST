@@ -1,0 +1,6 @@
+{
+    "python.defaultInterpreterPath": "/home/wushihan/data/miniconda3/envs/openpi/bin",
+    "python.analysis.extraPaths": [
+        "./src/openpi/models/contrast_utils/inpaint_anything/lama"
+    ]
+}
