@@ -8,14 +8,14 @@ Note: We are doing our best to improve this work. If you have any questions or s
 
 ## News
 
+- [2025/5/20] The code is released.
+
 ## Model Checkpoints
 
 | Model | Dataset | Checkpoint |
 |-------|---------|------------|
 | FAST | Libero90 | [Download]() |
 | InspireVLA-FAST | Libero90 | [Download]() |
-
-- [2025/5/20] The code is released.
 
 ## Installation
 
