@@ -7,7 +7,7 @@ import OpenGL
 OpenGL.ERROR_CHECKING = False
 
 import sys
-sys.path.append('/home-ssd/Users/nsgm_lx/wushihan/Codes/openpi')
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 import argparse
 import collections
@@ -23,7 +23,7 @@ from openpi_client import image_tools
 from openpi.policies import policy_config as _policy_config
 from openpi.shared import download
 from openpi.training import config as training_config
-from openpi.training.libero_vqa_utils import get_vqa_questions, get_vqa_instruction_prompt
+from openpi.training.libero_vqa_utils import get_vqa_questions
 
 from utils.logger import Logger, reset_logging
 

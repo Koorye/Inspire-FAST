@@ -2,8 +2,6 @@ import sys
 sys.path.append('.')
 
 import os
-# os.environ['LEROBOT_HOME'] = '/home-ssd/Users/nsgm_lx/wushihan/Codes/openpi-main-pcd'
-# get home
 home = os.path.expanduser("~")
 os.environ['HF_DATASETS_CACHE'] = os.path.join(home, '.cache/hf_datasets')
 os.environ['TRANSFORMERS_CACHE'] = os.path.join(home, '.cache/transformers')
