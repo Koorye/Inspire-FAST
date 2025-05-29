@@ -1,6 +1,6 @@
 # Inspire-FAST
 
-Official implementation of the paper "[Think Before You Act: Vision-Language-Action Models with Intrinsic Spatial Reasoning]()".
+Official implementation of the paper "[InSpire: Vision-Language-Action Models with Intrinsic Spatial Reasoning](https://arxiv.org/abs/2505.13888)".
 
 Note: We are doing our best to improve this work. If you have any questions or suggestions, please feel free to create an issue in this repo or contact us at shihan.wu.koorye@outlook.com.
 
@@ -8,14 +8,15 @@ Note: We are doing our best to improve this work. If you have any questions or s
 
 ## News
 
-- [2025/5/20] The code is released.
+- 🔥**May 23, 2025**: Our paper has been updated for better clarity and readability. The optimized version is now available on arXiv.
+- 🔥**May 21, 2025**: The code is released and the paper is now available on arXiv.
 
 ## Model Checkpoints
 
 | Model | Dataset | Checkpoint |
 |-------|---------|------------|
-| FAST | Libero90 | [Download]() |
-| InspireVLA-FAST | Libero90 | [Download]() |
+| FAST | Libero90 | [Download](https://huggingface.co/InspireVLA/fast-libero-90) |
+| InspireVLA-FAST | Libero90 | [Download](https://huggingface.co/InspireVLA/fast-inspire-libero-90) |
 
 ## Installation
 
@@ -44,7 +45,10 @@ pip install -e .
 
 1. Download pretrained checkpoints. 
 
-TODO
+```bash
+huggingface-cli download InspireVLA/fast-libero-90
+huggingface-cli download InspireVLA/fast-inspire-libero-90
+```
 
 2. Run evaluation.
 
